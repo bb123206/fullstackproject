@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://fullstackproject-8b1d.onrender.com',
+  baseURL: 'https://fullstackproject-8b1d.onrender.com', 
 });
 
 // Automatically attach JWT token to headers if available
