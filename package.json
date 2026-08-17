@@ -1,0 +1,14 @@
+{
+  "name": "sep-project",
+  "version": "1.0.0",
+  "description": "Minimalist To-Do Application",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd todolist && venv\\Scripts\\activate && py manage.py runserver",
+    "frontend": "cd todo-frontend && npm start",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
